@@ -14,6 +14,7 @@ A Search command to explore Elasticsearch data within Splunk.
 - Timestamp field specification
 - Index listing "action=indices-list"
 - Cluster health "action=cluster-health"
+- Username and Password loaded from config file
 
 # Included libraries
 - elasticsearch-py
@@ -48,4 +49,5 @@ When earliest and latest parameters are specified this will be the effective ran
 ```
 
 Written by Bruno Moura <brunotm@gmail.com>
+Maintened by Charles Costa <chlima88@github.com>
 
